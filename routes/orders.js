@@ -3,7 +3,8 @@ var router = express.Router();
 
 var MongoClient = require('mongodb').MongoClient;
 var ObjectID = require('mongodb').ObjectID;
-var url = 'mongodb://localhost/store';
+//var url = 'mongodb://localhost/store';
+var url = 'mongodb://clbo2:1234@ds037824.mlab.com:37824/store';
 /**
  * @api {get} /api/orders/ Get all Orders
  * @apiName GetAllOrders
